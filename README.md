@@ -60,12 +60,6 @@ Este exemplo foi testado no Google Colab.
 * Função de perda: `BCELoss`
 * Otimizador: `Adam`
 
-## 🧊 Exemplo de Saída
-
-A cada 10 épocas, o script gera uma grade de imagens como esta:
-
-![Exemplo de saída](https://pytorch.org/tutorials/_images/mnist_fake_samples.png)
-
 ## 📚 Referência
 
 A implementação foi inspirada na obra:
