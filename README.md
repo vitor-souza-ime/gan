@@ -15,7 +15,7 @@ Esses modelos são treinados de forma adversarial até que o gerador produza ima
 
 ```
 .
-├── gan_mnist.py       # Código principal com a definição e treinamento dos modelos
+├── gan.py       # Código principal com a definição e treinamento dos modelos
 ├── data/              # Pasta onde o PyTorch baixará o dataset MNIST
 └── README.md          # Este arquivo
 ```
@@ -45,10 +45,11 @@ cd mnist-gan
 2. Execute o script:
 
 ```bash
-python gan_mnist.py
+python gan.py
 ```
 
 Durante o treinamento, imagens geradas serão exibidas a cada 10 épocas.
+Este exemplo foi testado no Google Colab.
 
 ## 🧮 Hiperparâmetros
 
